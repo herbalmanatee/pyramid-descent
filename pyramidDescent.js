@@ -64,13 +64,5 @@ let solver = (target, arr) => {
   return solution;
 }
 
-let test = () => {
-  console.log(makeMatrix([1,2,3,4,1,1]));
-  console.log(makeMatrix([2,4,3,3,2,6,2,9,5,2,10,5,2,15,5]))
-  console.log(solver(2, [1,2,3,4,1,1]));
-  console.log(solver(720, [2,4,3,3,2,6,2,9,5,2,10,5,2,15,5]));
-  console.log(solver(1, [1,2,1,3,2,1,4,3,2,1,5,4,3,2,1,6,5,4,3,2,1,7,6,5,4,3,2,1,8,7,6,5,4,3,1,2]));
-  console.log(solver(1, [1,2,1,3,2,1,4,3,2,1,5,4,3,2,1,6,5,4,3,2,1,7,6,5,4,3,2,1,8,7,6,5,4,3,2,1]));
-}
 
-test();
+module.exports = solver;
